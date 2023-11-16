@@ -2,102 +2,202 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto senai</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Alessandra Campos  | Dev </title>
+  <meta content="Porftfolio pessoal do Fulano de TAL" name="description">
+  <meta content="Alessandra, Campos, Senai, Leopoldina, Portfolio, Front End, Dev" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.ico" rel="icon">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  
+  <!-- validador CSS Files -->
+  <link href="validador/aos/aos.css" rel="stylesheet">
+  <link href="validador/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="validador/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="validador/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="validador/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="validador/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/main.css" rel="stylesheet">
+  
 </head>
-
 <body>
-    <main class="#">
-        <div class="imagem">
-            <img src="img/download.jpg" alt="Perfil">
-        </div>
-        <div class="name">Alessandra Campos</div>
-        <div class="redes-sociais">
-            <div class="icon">
-                <a href="https://github.com/" target="_blank"><i class="ph ph-github-logo"></i></a>
-                <span><a href="https://github.com/" target="_blank"> GitHub </a></span>
-            </div>
-            <div class="icon">
-                <a href="https://www.instagram.com/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
-                <span><a href="https://www.instagram.com/" target="_blank"> Instagram </a></span>
-            </div>
-            <div class="icon">
-                <a href="https://www.facebook.com/" target="_blank"><i class="ph ph-facebook-logo"></i></a>
-                <span><a href="https://www.facebook.com/"> Facebook </a></span>
-            </div>
-            <div class="icon">
-                <a href="https://twitter.com/" target="_blank"><i class="ph ph-twitter-logo"></i></a>
-                <span><a href="https://twitter.com/">Twitter</a></span>
-            </div>
-            <div class="email">
-                <a href="mailto:lecaneves33@sp.senai.br">
-                    <i class="ph-bold ph-envelope-simple"></i></a>
-            </div>
-        </div> <!-- Fim das Redes Sociais  -->
+  <!-- botao para alternar a navegação móvel -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"> </i>
+  
+  <!-- cabeçalho -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-        
-        <div class="texto">
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim atque repudiandae deserunt vitae debitis!
-                Molestiae, autem. Illum quaerat dolor harum corporis numquam veritatis omnis reiciendis ab accusantium
-                est, atque quos.
+      <div class="profile"> <!-- Perfil -->
+        <img src="img/profile.jpeg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"> <a href="index.html"> Alessandra Campos  </a> </h1>
+        <div class="social-links mt-3 text-center"> <!-- Redes Sociais -->
+          <a href="#"> <i class="bx bxl-twitter"></i> </a>
+          <a href="#"> <i class="bx bxl-facebook"></i> </a>
+          <a href="#"> <i class="bx bxl-instagram"></i> </a>
+          <a href="#"> <i class="bx bxl-skype"></i> </a>
+          <a href="#"> <i class="bx bxl-linkedin"></i> </a>
+        </div> <!-- Fim Redes Sociais -->
+      </div> <!-- Fim Perfil -->
+
+      <!-- Menu Navegação -->
+      <nav id="navbar" class="nav-menu navbar">
+        <ul> 
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Início</span></a></li>
+          <li> <a href="#about" class="nav-link scrollto"> <i class="bx bx-user"></i> <span>Sobre</span> </a></li>
+          <li> <a href="#resume" class="nav-link scrollto"> <i class="bx bx-file-blank"></i> <span>Resumo</span> </a></li>
+          <li> <a href="#portfolio" class="nav-link scrollto"> <i class="bx bx-book-content"></i> <span>Porftfolio</span> </a></li>
+          <li> <a href="#services" class="nav-link scrollto"> <i class="bx bx-server"></i> <span>Serviços</span> </a></li>
+          <li> <a href="#contact" class="nav-link scrollto"> <i class="bx bx-envelope"></i> <span>Contato</span> </a></li>
+        </ul>
+      </nav> <!-- Fim Menu  -->
+
+    </div>
+  </header> <!-- Fim cabeçalho -->
+
+    <!-- HERO -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Alessandra</h1>
+      <p>Eu sou estudante de <span class="typed" data-typed-items="Front-End, Android,
+        Power bi, JavaScript"></span></p>
+    </div>
+  </section> <!-- Fim HERO -->
+
+  <!-- começo Main -->
+  <main id="main">
+
+    <!-- ======= Sobre Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2> Sobre </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium repellendus odit officia ullam! Explicabo inventore fugiat obcaecati, ut nobis consequuntur fuga eos, maiores id quam saepe architecto. Ipsum, non explicabo.
+          </p>
+        </div> <!-- fim section-title ======= -->
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="img/profile.jpeg" class="img-fluid" alt="" width="600px" height="600px">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3> Estudante de Front-End </h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem, odit hic repellendus optio nulla vero corporis numquam aperiam cumque obcaecati ad error ullam labore dicta atque voluptatem voluptatum cum!
             </p>
-        </div><!--fim div texto-->
+          
+            <div class="row">
+              <div class="col-lg-6"> 
+                <ul>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>Aniversario:</strong> <span>21 Dezembro 1975</span> </li>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.meusite.com</span> </li>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>Telefone: </strong> <span>(11) 9 3714 - 2241</span> </li>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>Cidade:</strong> <span>São Paulo - SP</span> </li>
+                </ul>
+              </div>
 
+              <div class="col-lg-6">
+                <ul>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>47</span> </li>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>Escolaridade:</strong> <span>Técnologo</span> </li>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>catatau84@hotmail.com</span> </li>
+                  <li> <i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponível</span> </li>
+                </ul>
+              </div>
+            </div>  <!-- fim div 2 row ======= -->
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti recusandae culpa cupiditate modi quisquam dolorum itaque voluptatem impedit dolore fuga illum repellendus obcaecati quia fugit porro nobis, quidem quo accusamus!
+            </p>
 
-        <h2 class="subtitulo"> Linguagens para treinamentos </h2>
+          </div>  <!-- ======= fim div Fade Left ======= -->
+        </div> <!-- ======= fim div row ======= -->
+      </div> <!-- ======= fim container ======= -->
+    </section> <!-- ======= Fim Section About ======= -->
 
-        <section class="linguagem">
-
-            <img src="img/html1.jpg" alt="Projetos Front">
-
-            <img src="img/neew.jpg" alt="Projetos Back End">
-
-        </section>
-
-        <section class="Projetos">
-            <h2 class="subtitulo">Conheça Meus Projetos Front/Back</h2>
-
-            <div class="item" id="albumFotos">Album de fotos</div>
-            <iframe width="688" height="387" class="movieAlbum" id="movie"
-                src="https://www.youtube.com/embed/30nlBGjPRYM"
-                title="CAMINHOS PARA SER UM DEV FRONT-END EM 2023 (GUIA COMPLETO E ATUALIZADO)" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-
-            <div class="item" id="casamento">Casamento</div>
-            <iframe width="688" height="387" class="movieCasamentos" id="movie"
-                src="https://www.youtube.com/embed/BRuTnxjf2k8"
-                title="Guia Frontend para iniciantes" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-
-            <div class="item" id="buffet">Buffet</div>
-            <iframe width="688" height="387" class="movieBuffet" id="movie"
-                src="https://www.youtube.com/embed/ZtMzB5CoekE"
-                title="3 Técnicas Que Eu Uso Para Aprender a Programar Qualquer Coisa (mesmo sem ter o dom da programação)"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-
-                <div class="item" id="salao">Salao</div>
-                <iframe width="688" height="387" class="movieSalao" id="movie"
-                src="<iframe width="686" height="386" src="https://www.youtube.com/embed/oUvhDsxeZGQ" 
-                title="Decoração clássica de casamento na Casa Bisutti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen></iframe>
-                
-        </section>
-
-
-        <footer class="rodape">
-            <p> &copy; 2023 Alessandra Campos</p>
-        </footer>
-
+    <!-- ======= Section Feitos ======= -->
+    <section id="facts" class="facts">
+      <div class="container"> 
         
-    </main>
-    <script src="js/script.js"></script>
+        <div class="section-title"> 
+          <h2>Feitos</h2>
+          <p>
+            Aqui estão as minhas atividades realizadas ao longo do curso "..."
+            Esses são os resultados dos cursos que realizei.
+          </p>
+        </div> <!-- ======= fim seção titulo ======= -->
+
+        <div class="row no-gutter"> 
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-award-fill"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"> </span>
+              <p> <strong>Cursos</strong> Realizados</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" 
+          data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"> </span>
+              <p> <strong>Projetos</strong> Realizados</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14768" data-purecounter-duration="1" class="purecounter"> </span>
+              <p> <strong>Horas</strong>de treinamentos</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"> </span>
+              <p>teste <strong>teste</strong> </p>
+            </div>
+          </div>
+
+        </div>  <!-- == Fim no gutter === -->
+        
+      </div>  <!-- == Fim div container === -->
+    </section>
+
+
+
+  
+
+  </main> <!-- Fim Main -->
+  
+  <!-- validador dos Arquivos JS  -->
+  <script src="validador/purecounter/purecounter_vanilla.js"></script>
+  <script src="validador/aos/aos.js"></script>
+  <script src="validador/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="validador/glightbox/js/glightbox.min.js"></script>
+  <script src="validador/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="validador/swiper/swiper-bundle.min.js"></script>
+  <script src="validador/typed.js/typed.umd.js"></script>
+  <script src="validador/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS -->
+  <script src="js/main.js"></script>
+
+  
 </body>
 </html>
