@@ -81,7 +81,7 @@ body {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #2c2f3f;
+    border: 8px solid #a4ada3;
   }
   
   #header .profile h1 {
@@ -89,22 +89,22 @@ body {
     margin: 0;
     padding: 0;
     font-weight: 600;
-    -moz-text-align-last: center;
+    -moz-text-align-last: right ;
     text-align-last: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Times", sans-serif;
   }
   
   #header .profile h1 a,
   #header .profile h1 a:hover {
-    color: #fff;
+    color: #67af23;
     text-decoration: none;
   }
   
   #header .profile .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #212431;
-    color: #fff;
+    background: #71af20;
+    color: #ffffff;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -116,7 +116,7 @@ body {
   }
   
   #header .profile .social-links a:hover {
-    background: #149ddd;
+    background: #0e181d;
     color: #fff;
     text-decoration: none;
   }
@@ -170,7 +170,7 @@ body {
   .nav-menu a:focus {
     display: flex;
     align-items: center;
-    color: #a8a9b4;
+    color: rgb(183, 226, 121);
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
@@ -181,7 +181,7 @@ body {
   .nav-menu a:focus i {
     font-size: 24px;
     padding-right: 8px;
-    color: #6f7180;
+    color: rgb(77, 189, 22);
   }
   
   .nav-menu a:hover,
@@ -189,14 +189,14 @@ body {
   .nav-menu .active:focus,
   .nav-menu li:hover>a {
     text-decoration: none;
-    color: #fff;
+    color: #52d18b;
   }
   
   .nav-menu a:hover i,
   .nav-menu .active i,
   .nav-menu .active:focus i,
   .nav-menu li:hover>a i {
-    color: #149ddd;
+    color: #07610c;
   }
   
   /* Mobile Navigation */
@@ -209,7 +209,7 @@ body {
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
-    background-color: #149ddd;
+    background-color: #112020;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -234,14 +234,14 @@ body {
   --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 100vh;
-    background: url("../img/hero.jpg") top center;
+    height: 95vh;
+    background: url("../img/hero-bg2.jpg") top center;
     background-size: cover;
 }
   
   #hero:before {
     content: "";
-    background: rgba(5, 13, 24, 0.3);
+    background: rgba(12, 47, 97, 0.3);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -261,21 +261,21 @@ body {
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #fff;
+    color: #ebd9d9;
   }
   
   #hero p {
-    color: #fff;
+    color: hwb(0 100% 0%);
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
   }
   
   #hero p span {
-    color: #fff;
+    color: #0a2022;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
+    border-bottom: 3px solid #23a0da;
   }
   
   @media (min-width: 1024px) {
@@ -319,7 +319,7 @@ body {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #173b6c;
+    color: #0c111a;
   }
   
   .section-title h2::after {
