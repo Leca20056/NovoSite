@@ -9,12 +9,12 @@ body {
   }
   
   a {
-    color: #149ddd;
+    color: #636b6e;
     text-decoration: none;
   }
   
   a:hover {
-    color: #37b3ed;
+    color: #2a2d2e;
     text-decoration: none;
   }
   
@@ -37,7 +37,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #149ddd;
+    background: #01141d;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -51,7 +51,7 @@ body {
   }
   
   .back-to-top:hover {
-    background: #2eafec;
+    background: #93ec2e;
     color: #fff;
   }
   
@@ -275,8 +275,7 @@ body {
     color: #0a2022;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #23a0da;
-  }
+    }
   
   @media (min-width: 1024px) {
     #hero {
